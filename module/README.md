@@ -1,3 +1,7 @@
+### This module creates a vpc in google cloud
+
+```
+
 module "vpc" {
     source = "tutac/terraform-gcp-vpc"
     vpc_name = "test"
@@ -9,3 +13,5 @@ module "vpc" {
     ip_cidr_range2 = "your range"
     ip_cidr_range3 = "your range"
 }
+
+```
